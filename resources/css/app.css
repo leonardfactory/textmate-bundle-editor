@@ -57,14 +57,13 @@ section.panel {
 	font-weight: bold;
 }
 
-#list {
+.list {
 	display: block;
 }
 
 .file-nav {
 	box-sizing: border-box;
 	width: auto;
-	height: 100%;
 }
 
 ul.file-list {
