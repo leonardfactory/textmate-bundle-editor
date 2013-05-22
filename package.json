@@ -4,7 +4,7 @@
   "author": "Leonardo Ascione <me@leonardfactory.com>  (http://leonardfactory.com)",
   "description": "a basic editor to adjust menus in TextMate",
   "scripts": {
-    "start": "node app.js",
+    "start": "nw ./",
     "test": "mocha"
   },
   "main": "./app.js",
@@ -26,5 +26,6 @@
   },
   "dependencies": {
     "async": "~0.2.8"
-  }
+  },
+  "main" : "index.html"
 }
