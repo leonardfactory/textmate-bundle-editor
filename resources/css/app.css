@@ -1,9 +1,27 @@
+/**
+ * Entypo fontface
+ */
+@font-face {
+    font-family: 'Entypo';
+    src: url('../fonts/entypo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Entypo Social';
+    src: url('../fonts/entypo-social.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/** Style **/
 body {
 	background-color: #ECF0F1;
+	color: #34495E;
 }
 
 #container {
-	padding: 20px;
 	width: 100%;
 	height: 100%;
 	box-sizing: border-box;
@@ -28,5 +46,38 @@ body {
 }
 
 #list {
-	display: none;
+	display: block;
+}
+
+.file-nav {
+	width: auto;
+}
+
+ul.file-list {
+	width: 200px; /* @todo change */
+	height: 300px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.file-list li {
+	display: block;
+	width: 100%;
+}
+
+ul.file-list li a, ul.file-list li a:visited {
+	display: block;
+	padding: 0.8em;
+	color: #34495E;
+	text-decoration: none;
+}
+
+ul.file-list li a:hover, ul.file-list li a:focus {
+	background-color: #1ABC9C;
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
 }
