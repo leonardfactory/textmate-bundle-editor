@@ -27,5 +27,10 @@
   "dependencies": {
     "async": "~0.2.8"
   },
-  "main" : "index.html"
+  "main" : "index.html",
+  "window": {
+      "toolbar": false,
+      "width": 660,
+      "height": 500
+    }
 }
