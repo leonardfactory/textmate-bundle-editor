@@ -1,0 +1,30 @@
+{
+	"name": "textmate-bundle-editor",
+	"version": "0.0.1",
+	"author": "Leonardo Ascione <me@leonardfactory.com>  (http://leonardfactory.com)",
+	"description": "a basic editor to adjust menus in TextMate",
+	"scripts": {
+		"start": "node app.js",
+		"test": "mocha"
+	},
+	"main": "./app.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/leonardfactory/textmate-bundle-editor.git"
+	},
+	"keywords": [
+		"textmate",
+		"app",
+		"editor"
+	],
+	"dependencies" : {
+		"appjs"   :  "0.0.x"
+	},
+	"devDependencies": {
+		"mocha": "~1.9.0",
+	},
+	"license": "MIT",
+	"engines": {
+		"node": ">=0.10"
+	}
+}
