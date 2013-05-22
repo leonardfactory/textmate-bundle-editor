@@ -7,7 +7,7 @@
     "start": "nw ./",
     "test": "mocha"
   },
-  "main": "./app.js",
+  "main": "index.html",
   "repository": {
     "type": "git",
     "url": "https://github.com/leonardfactory/textmate-bundle-editor.git"
@@ -25,12 +25,14 @@
     "node": ">=0.10"
   },
   "dependencies": {
-    "async": "~0.2.8"
+    "async": "~0.2.8",
+    "plist": "~0.4.3"
   },
-  "main" : "index.html",
   "window": {
-      "toolbar": false,
-      "width": 660,
-      "height": 500
-    }
+    "toolbar": true,
+    "width": 800,
+    "height": 600,
+    "resizable": false,
+    "as_desktop": true
+  }
 }
