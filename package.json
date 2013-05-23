@@ -27,7 +27,8 @@
   "dependencies": {
     "async": "~0.2.8",
     "plist": "~0.4.3",
-    "wrench": "~1.5.1"
+    "wrench": "~1.5.1",
+    "underscore": "~1.4.4"
   },
   "window": {
     "toolbar": true,
