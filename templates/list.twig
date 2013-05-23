@@ -1,5 +1,5 @@
-{% for item in items %}
 <ul class="file-list">
+	{% for item in items %}
 	<li><a class="icon {{ item.ext[0] }}">{{ item.name }}</a></li>
+	{% endfor %}
 </ul>
-{% endfor %}
