@@ -28,7 +28,8 @@
     "async": "~0.2.8",
     "plist": "~0.4.3",
     "wrench": "~1.5.1",
-    "underscore": "~1.4.4"
+    "underscore": "~1.4.4",
+    "twig": "~0.5.8"
   },
   "window": {
     "toolbar": true,

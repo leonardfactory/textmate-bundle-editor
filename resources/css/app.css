@@ -78,6 +78,8 @@ section.panel {
 
 ul.file-list {
 	width: 200px; /* @todo change */
+	float: left;
+	margin-left: 0;
 	height: 100%;
 	overflow-y: scroll;
 	overflow-x: hidden;
