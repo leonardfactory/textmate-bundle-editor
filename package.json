@@ -26,7 +26,6 @@
   },
   "dependencies": {
     "async": "~0.2.8",
-    "plist": "~0.4.3",
     "wrench": "~1.5.1",
     "underscore": "~1.4.4",
     "twig": "~0.5.8"
@@ -35,7 +34,7 @@
     "toolbar": true,
     "width": 800,
     "height": 600,
-    "resizable": false,
+    "resizable": true,
     "as_desktop": true
   }
 }

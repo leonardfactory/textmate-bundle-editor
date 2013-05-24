@@ -69,6 +69,10 @@ section.panel {
 
 .list {
 	display: block;
+	width: 100%;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	white-space: nowrap;
 }
 
 .file-nav {
@@ -78,7 +82,7 @@ section.panel {
 
 ul.file-list {
 	width: auto; /* @todo change */
-	float: left;
+	display: inline-block;
 	margin-left: 0;
 	height: 100%;
 	overflow-y: scroll;
@@ -117,8 +121,6 @@ ul.file-list li a:hover .file-extension, ul.file-list li a:focus .file-extension
 	color: #BDC3C7;
 }
 
-
-
 /** Icons **/
 
 ul.file-list li a.icon:before {
@@ -140,6 +142,19 @@ ul.file-list li a.snippet:before { content: '\0051 '; }
 ul.file-list li a.language:before { content: '\003B '; }
 ul.file-list li a.command:before { content: '\007B '; }
 
-.file-extension {
-	color: ;
+/** Custom scrollbar **/
+::-webkit-scrollbar {
+    width: 9px;
+	height: 9px;
+	padding-left: 4px;
+}
+ 
+::-webkit-scrollbar-track {
+	box-sizing: border-box;
+    background-color: none;
+    /*border-radius: 6px;*/
+}
+ 
+::-webkit-scrollbar-thumb {
+    background-color: #95A5A6;
 }
